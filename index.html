@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EYETI Mechanical Keyboard — Sound Therapy for a Harmonious Mind</title>
+  <meta name="description" content="EYETI 75% Mechanical Keyboard. Minimalist design, sound therapy engineering, custom orange linear switches, and suspended gasket mount.">
+  
+  <!-- Typography (Midlife Engineering aesthetic) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Doto:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <!-- ACCESSIBILITY SKIP LINK -->
+  <a href="#hero-stage" class="skip-to-content">Skip to technical content</a>
+
+  <!-- MINIMAL TECHNICAL PRELOADER -->
+  <div id="preloader" class="preloader" aria-live="polite">
+    <div class="preloader-panel">
+      <div class="preloader-header">
+        <div class="brand-monogram">
+          <span class="mono-dot"></span>
+          <span class="brand-name">EYETI // ACOUSTIC LAB</span>
+        </div>
+        <span id="loading-pct" class="preloader-pct mono">0%</span>
+      </div>
+      <div class="preloader-track" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+        <div id="loading-bar" class="preloader-fill"></div>
+      </div>
+      <div class="preloader-telemetry mono">
+        <span id="loading-status">INITIALIZING 240-FRAME STREAM...</span>
+        <span class="status-freq">125 Hz CALIBRATION</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- SITE HEADER -->
+  <header class="site-header" role="banner">
+    <div class="header-inner">
+      <a href="#" class="brand-unit" aria-label="EYETI Mechanical Keyboard Home">
+        <div class="brand-logo-mark">
+          <span class="mark-core"></span>
+        </div>
+        <div class="brand-text-wrap">
+          <span class="brand-title">EYETI</span>
+          <span class="brand-model mono">75-PRO // SOUND THERAPY</span>
+        </div>
+      </a>
+
+      <nav class="site-nav" role="navigation" aria-label="Main Navigation">
+        <a href="#hero-stage" class="nav-item active">Overview</a>
+        <a href="#sound-studio" class="nav-item">Sound Therapy</a>
+        <a href="#architecture" class="nav-item">Acoustic Stack</a>
+        <a href="#specs" class="nav-item">Specifications</a>
+      </nav>
+
+      <div class="header-actions">
+        <div class="hz-telemetry-pill mono" title="Live Fundamental Resonance">
+          <span class="pulse-indicator"></span>
+          <span>125 Hz THOCK</span>
+        </div>
+        <a href="#preorder" class="btn-primary-pill">
+          <span>Pre-Order</span>
+          <span class="pill-price mono">$249</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main id="main-content">
+
+    <!-- 3D FULLSCREEN HERO STAGE (NO PADDING, FULL BLEED) -->
+    <section id="hero-stage" class="hero-stage" aria-label="Interactive 3D Mechanical Keyboard Stage">
+      <div class="hero-sticky-frame">
+        
+        <!-- FULLSCREEN CANVAS VIEWPORT -->
+        <canvas id="hero-canvas" class="hero-canvas"></canvas>
+
+        <!-- NARRATIVE OVERLAYS (CLEAN, MINIMAL, FLOATING) -->
+        <div class="act-viewport">
+          
+          <!-- ACT 1: TACTILE CORE (0% - 25%) -->
+          <article id="act-1" class="act-layer active" aria-labelledby="act1-title">
+            <div class="act-inner">
+              <div class="tag-strip mono">
+                <span class="dot-orange"></span>
+                <span>ACT 01 // MECHANICAL PRECISION</span>
+              </div>
+              <h1 id="act1-title" class="act-headline">Sound therapy for the tactile mind.</h1>
+              <p class="act-description">
+                Custom mechanical switches with signature industrial orange stems. Engineered to transform daily typing into rhythmic, mindful clarity.
+              </p>
+              
+              <div class="telemetry-deck">
+                <div class="deck-card">
+                  <span class="deck-label mono">LAYOUT</span>
+                  <span class="deck-val">75% Compact</span>
+                  <span class="deck-sub mono">84-Key Architecture</span>
+                </div>
+                <div class="deck-card">
+                  <span class="deck-label mono">ACTUATION</span>
+                  <span class="deck-val highlight">45g Linear</span>
+                  <span class="deck-sub mono">3.2mm Travel</span>
+                </div>
+                <div class="deck-card">
+                  <span class="deck-label mono">CHASSIS</span>
+                  <span class="deck-val">6063 Aluminum</span>
+                  <span class="deck-sub mono">CNC Anodized</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- ACT 2: ACOUSTIC DAMPENING (26% - 55%) -->
+          <article id="act-2" class="act-layer" aria-labelledby="act2-title">
+            <div class="act-inner">
+              <div class="tag-strip mono">
+                <span class="dot-orange"></span>
+                <span>ACT 02 // ACOUSTIC ATTENUATION</span>
+              </div>
+              <h2 id="act2-title" class="act-headline">Resonance dampened. Harmonics perfected.</h2>
+              <p class="act-description">
+                High-density wave-profile Poron egg-crate foam eliminates hollow metallic ping, isolating a clean, low-frequency 125 Hz thock profile.
+              </p>
+
+              <div class="telemetry-deck">
+                <div class="deck-card">
+                  <span class="deck-label mono">ACOUSTIC DAMPENER</span>
+                  <span class="deck-val highlight">Poron Wave Foam</span>
+                  <span class="deck-sub mono">Egg-Crate Profile</span>
+                </div>
+                <div class="deck-card">
+                  <span class="deck-label mono">FUNDAMENTAL THOCK</span>
+                  <span class="deck-val">125 Hz Peak</span>
+                  <span class="deck-sub mono">-38dB Ping Floor</span>
+                </div>
+                <div class="deck-card">
+                  <span class="deck-label mono">PCB</span>
+                  <span class="deck-val">Matte Black</span>
+                  <span class="deck-sub mono">5-Pin Hot-Swap</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- ACT 3: GASKET SUSPENSION (56% - 80%) -->
+          <article id="act-3" class="act-layer" aria-labelledby="act3-title">
+            <div class="act-inner">
+              <div class="tag-strip mono">
+                <span class="dot-orange"></span>
+                <span>ACT 03 // SUSPENDED ARCHITECTURE</span>
+              </div>
+              <h2 id="act3-title" class="act-headline">Floating gasket isolation mount.</h2>
+              <p class="act-description">
+                Flex-cut FR4 plate suspended on decoupled elastomer gaskets. Typing vibrations are dispersed for uniform rebound without rigid desk fatigue.
+              </p>
+
+              <div class="telemetry-deck">
+                <div class="deck-card">
+                  <span class="deck-label mono">MOUNTING</span>
+                  <span class="deck-val highlight">Suspended Gasket</span>
+                  <span class="deck-sub mono">Silicone Tabs</span>
+                </div>
+                <div class="deck-card">
+                  <span class="deck-label mono">PLATE</span>
+                  <span class="deck-val">FR4 Flex-Cut</span>
+                  <span class="deck-sub mono">Perforated Spring</span>
+                </div>
+                <div class="deck-card">
+                  <span class="deck-label mono">LATENCY</span>
+                  <span class="deck-val">&lt; 0.8ms</span>
+                  <span class="deck-sub mono">1000Hz Tri-Mode</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- ACT 4: SCULPTED PRECISION (81% - 100%) -->
+          <article id="act-4" class="act-layer" aria-labelledby="act4-title">
+            <div class="act-inner">
+              <div class="tag-strip mono">
+                <span class="dot-orange"></span>
+                <span>ACT 04 // TACTILE FINISH</span>
+              </div>
+              <h2 id="act4-title" class="act-headline">Sculpted PBT. Zero acoustic fade.</h2>
+              <p class="act-description">
+                1.5mm thick double-shot PBT keycaps with spherical ergonomic concave contours and turquoise accent Esc key. Textured matte surface engineered for lifelong durability.
+              </p>
+
+              <div class="cta-action-row">
+                <a href="#preorder" class="btn-primary-action">
+                  <span>Configure Your EYETI</span>
+                  <span class="arrow-glyph">→</span>
+                </a>
+                <a href="#sound-studio" class="btn-secondary-action">
+                  <span>Sound Therapy Studio</span>
+                </a>
+              </div>
+
+              <div class="compliance-badges mono">
+                <span>1.5MM DOUBLE-SHOT PBT</span>
+                <span class="sep">/</span>
+                <span>CNC 6063 ALUMINUM</span>
+                <span class="sep">/</span>
+                <span>HOT-SWAP 5-PIN</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION: INTERACTIVE SOUND THERAPY STUDIO -->
+    <section id="sound-studio" class="sound-studio-section" aria-labelledby="studio-heading">
+      <div class="section-container">
+        
+        <div class="studio-header">
+          <div class="tag-strip mono">
+            <span class="dot-orange"></span>
+            <span>ACOUSTIC SYNTHESIS ENGINE // WEB AUDIO API</span>
+          </div>
+          <h2 id="studio-heading" class="section-title">Harmonize your typing flow.</h2>
+          <p class="section-subtitle">
+            Every keystroke generates an acoustic frequency calibrated for cognitive flow. Press any key on your physical keyboard right now, or click the interactive soundpads below.
+          </p>
+        </div>
+
+        <div class="studio-grid">
+          
+          <!-- LEFT: SWITCH SELECTOR & VIRTUAL KEYPAD -->
+          <div class="studio-card control-card">
+            <div class="card-header">
+              <span class="mono card-tag">SWITCH ACOUSTIC PROFILE</span>
+              <span class="mono tag-active" id="current-switch-tag">ACTIVE: ORANGE LINEAR</span>
+            </div>
+
+            <div class="switch-selector-row">
+              <button class="switch-btn active" data-profile="orange" id="switch-orange">
+                <div class="switch-color-dot dot-orange-stem"></div>
+                <div class="switch-meta">
+                  <span class="switch-title">EYETI Orange</span>
+                  <span class="switch-desc mono">125 Hz Deep Thock</span>
+                </div>
+              </button>
+
+              <button class="switch-btn" data-profile="cream" id="switch-cream">
+                <div class="switch-color-dot dot-cream-stem"></div>
+                <div class="switch-meta">
+                  <span class="switch-title">Muted Cream</span>
+                  <span class="switch-desc mono">210 Hz Marbly Flow</span>
+                </div>
+              </button>
+
+              <button class="switch-btn" data-profile="blue" id="switch-blue">
+                <div class="switch-color-dot dot-blue-stem"></div>
+                <div class="switch-meta">
+                  <span class="switch-title">Tactile Crisp</span>
+                  <span class="switch-desc mono">820 Hz Clear Clack</span>
+                </div>
+              </button>
+            </div>
+
+            <!-- INTERACTIVE VIRTUAL KEYPAD -->
+            <div class="virtual-keypad">
+              <div class="keypad-instruction mono">
+                <span>[⌨️ TYPE ANY PHYSICAL KEY] OR CLICK BELOW:</span>
+              </div>
+
+              <div class="keypad-rows">
+                <div class="key-row">
+                  <button class="key-cap key-esc" data-key="Escape" title="Esc Key">ESC</button>
+                  <button class="key-cap" data-key="KeyQ">Q</button>
+                  <button class="key-cap" data-key="KeyW">W</button>
+                  <button class="key-cap" data-key="KeyE">E</button>
+                  <button class="key-cap" data-key="KeyR">R</button>
+                  <button class="key-cap" data-key="KeyT">T</button>
+                  <button class="key-cap key-wide" data-key="Backspace">BKSP</button>
+                </div>
+                <div class="key-row">
+                  <button class="key-cap key-tab" data-key="Tab">TAB</button>
+                  <button class="key-cap" data-key="KeyA">A</button>
+                  <button class="key-cap" data-key="KeyS">S</button>
+                  <button class="key-cap" data-key="KeyD">D</button>
+                  <button class="key-cap" data-key="KeyF">F</button>
+                  <button class="key-cap key-enter" data-key="Enter">ENTER</button>
+                </div>
+                <div class="key-row">
+                  <button class="key-cap key-space" data-key="Space">SPACEBAR // 125 Hz DEEP THOCK</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-footer-mono mono">
+              <span>LATENCY: &lt; 1.2MS</span>
+              <span>SYNTHESIZED HARMONIC RESONANCE</span>
+            </div>
+          </div>
+
+          <!-- RIGHT: LIVE FREQUENCY SPECTRUM & ACOUSTIC OSCILLOSCOPE -->
+          <div class="studio-card visualizer-card">
+            <div class="card-header">
+              <span class="mono card-tag">LIVE ACOUSTIC OSCILLOSCOPE</span>
+              <div class="audio-live-badge mono">
+                <span class="pulse-indicator"></span>
+                <span>MONITOR ACTIVE</span>
+              </div>
+            </div>
+
+            <!-- OSCILLOSCOPE CANVAS -->
+            <div class="oscilloscope-wrap">
+              <canvas id="audio-visualizer-canvas" class="visualizer-canvas" width="600" height="240"></canvas>
+              <div class="grid-overlay"></div>
+            </div>
+
+            <!-- REAL-TIME READOUTS -->
+            <div class="metrics-grid mono">
+              <div class="metric-cell">
+                <span class="metric-lbl">PEAK RESONANCE</span>
+                <span class="metric-num highlight" id="readout-hz">125.4 Hz</span>
+              </div>
+              <div class="metric-cell">
+                <span class="metric-lbl">DECAY TIME</span>
+                <span class="metric-num">38.2 ms</span>
+              </div>
+              <div class="metric-cell">
+                <span class="metric-lbl">PING ATTENUATION</span>
+                <span class="metric-num highlight">-42.5 dB</span>
+              </div>
+              <div class="metric-cell">
+                <span class="metric-lbl">KEYPRESS COUNT</span>
+                <span class="metric-num" id="readout-keystrokes">0</span>
+              </div>
+            </div>
+
+            <div class="card-footer-mono mono">
+              <span>SPECTRUM: 20 Hz - 20 kHz</span>
+              <span>PORON WAVE FILTER: ACTIVE</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION: EXPLODED MECHANICAL STACK -->
+    <section id="architecture" class="stack-section" aria-labelledby="stack-heading">
+      <div class="section-container">
+        
+        <div class="section-header-compact">
+          <div class="tag-strip mono">
+            <span class="dot-orange"></span>
+            <span>ENGINEERING BREAKDOWN // 5 STRUCTURAL TIERS</span>
+          </div>
+          <h2 id="stack-heading" class="section-title">Anatomy of pure acoustics.</h2>
+        </div>
+
+        <div class="stack-layout">
+          
+          <div class="layer-list">
+            
+            <div class="layer-item active" data-layer="1">
+              <div class="layer-num mono">01</div>
+              <div class="layer-content">
+                <div class="layer-title-row">
+                  <h3 class="layer-title">1.5mm Double-Shot PBT Keycaps</h3>
+                  <span class="layer-badge mono">SURFACE TIER</span>
+                </div>
+                <p class="layer-desc">
+                  Spherical concave profile precision-molded from extra-dense PBT polymer. Deep wall thickness provides acoustic mass, dampening high-frequency keycap rattle.
+                </p>
+                <div class="layer-spec mono">THICKNESS: 1.5MM // PROFILE: CHERRY/OEM // MATERIAL: PBT</div>
+              </div>
+            </div>
+
+            <div class="layer-item" data-layer="2">
+              <div class="layer-num mono">02</div>
+              <div class="layer-content">
+                <div class="layer-title-row">
+                  <h3 class="layer-title">EYETI Orange Linear Switches</h3>
+                  <span class="layer-badge mono highlight">ACTUATION CORE</span>
+                </div>
+                <p class="layer-desc">
+                  Custom engineered with self-lubricating POM stems in industrial orange (`#ff611a`) and clear polycarb housings. Factory hand-lubed with Krytox GPL 205g0 for frictionless, buttery key travel.
+                </p>
+                <div class="layer-spec mono">ACTUATION: 45G // TRAVEL: 3.2MM // STEM: POM // SPRING: 16MM EXTENDED</div>
+              </div>
+            </div>
+
+            <div class="layer-item" data-layer="3">
+              <div class="layer-num mono">03</div>
+              <div class="layer-content">
+                <div class="layer-title-row">
+                  <h3 class="layer-title">FR4 Flex-Cut Mounting Plate</h3>
+                  <span class="layer-badge mono">SUSPENSION</span>
+                </div>
+                <p class="layer-desc">
+                  Composite glass-epoxy plate with precision lateral relief cuts surrounding every switch cluster. Delivers elastic flex upon bottoming out, eliminating finger fatigue.
+                </p>
+                <div class="layer-spec mono">MATERIAL: FR4 EPOXY // CUTS: PERIMETER FLEX // MOUNT: SILICONE TABS</div>
+              </div>
+            </div>
+
+            <div class="layer-item" data-layer="4">
+              <div class="layer-num mono">04</div>
+              <div class="layer-content">
+                <div class="layer-title-row">
+                  <h3 class="layer-title">High-Density Poron Egg-Crate Foam</h3>
+                  <span class="layer-badge mono highlight">ACOUSTIC TRAP</span>
+                </div>
+                <p class="layer-desc">
+                  Micro-cellular open-cell polyurethane foam with undulating egg-crate contours. Traps internal sound reverberations and converts kinetic energy into micro-thermal dissipation.
+                </p>
+                <div class="layer-spec mono">DENSITY: 320 KG/M³ // PROFILE: WAVE ACOUSTIC // DAMPENING: -38DB</div>
+              </div>
+            </div>
+
+            <div class="layer-item" data-layer="5">
+              <div class="layer-num mono">05</div>
+              <div class="layer-content">
+                <div class="layer-title-row">
+                  <h3 class="layer-title">CNC 6063 Aluminum Chassis &amp; Hot-Swap PCB</h3>
+                  <span class="layer-badge mono">FOUNDATION</span>
+                </div>
+                <p class="layer-desc">
+                  Solid-block 6063 aerospace aluminum billet, 5-axis CNC machined with bead-blasted anodized finish. Houses Kailh v2 hot-swappable sockets rated for 50,000 swap cycles.
+                </p>
+                <div class="layer-spec mono">ALLOY: 6063-T6 // FINISH: ANODIZED // HOT-SWAP: 5-PIN UNIVERSAL</div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION: TECHNICAL SPECIFICATIONS -->
+    <section id="specs" class="specs-section" aria-labelledby="specs-heading">
+      <div class="section-container">
+        
+        <div class="section-header-compact">
+          <div class="tag-strip mono">
+            <span class="dot-orange"></span>
+            <span>SYSTEM MATRIX // ARCHITECTURAL DATA</span>
+          </div>
+          <h2 id="specs-heading" class="section-title">Engineered to exact tolerances.</h2>
+        </div>
+
+        <div class="specs-matrix">
+          
+          <div class="spec-tile">
+            <span class="spec-key mono">CHASSIS &amp; GEOMETRY</span>
+            <span class="spec-main">CNC 6063 Aluminum</span>
+            <span class="spec-detail">Anodized Space Grey bead-blasted finish with chamfered perimeter edges.</span>
+          </div>
+
+          <div class="spec-tile">
+            <span class="spec-key mono">DIMENSIONS &amp; WEIGHT</span>
+            <span class="spec-main">318 × 136 × 21.5 mm</span>
+            <span class="spec-detail">Front height: 18.2mm. Total net weight: 1,480g with brass weight bar.</span>
+          </div>
+
+          <div class="spec-tile">
+            <span class="spec-key mono">TRI-MODE CONNECTIVITY</span>
+            <span class="spec-main">2.4G / BT 5.3 / USB-C</span>
+            <span class="spec-detail">1000Hz polling rate in wired &amp; 2.4GHz mode. Tri-device memory over Bluetooth.</span>
+          </div>
+
+          <div class="spec-tile">
+            <span class="spec-key mono">POWER &amp; BATTERY</span>
+            <span class="spec-main">4,000 mAh Li-Ion</span>
+            <span class="spec-detail">Up to 240 hours continuous typing. Intelligent sleep telemetry.</span>
+          </div>
+
+          <div class="spec-tile">
+            <span class="spec-key mono">HOT-SWAP SOCKETS</span>
+            <span class="spec-main">Kailh Universal 5-Pin</span>
+            <span class="spec-detail">Supports Cherry, Gateron, Kailh, Outemu, and custom enthusiast switches.</span>
+          </div>
+
+          <div class="spec-tile">
+            <span class="spec-key mono">CROSS-PLATFORM</span>
+            <span class="spec-main">macOS / Windows / Linux</span>
+            <span class="spec-detail">Dedicated physical hardware switch with full QMK / VIA key remapping support.</span>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION: PRE-ORDER -->
+    <section id="preorder" class="preorder-section" aria-labelledby="preorder-heading">
+      <div class="section-container">
+        
+        <div class="preorder-box">
+          <div class="preorder-left">
+            <div class="tag-strip mono">
+              <span class="dot-orange"></span>
+              <span>BATCH 01 // LIMITED ALLOCATION</span>
+            </div>
+            <h2 id="preorder-heading" class="preorder-headline">Own the instrument of focus.</h2>
+            <p class="preorder-lead">
+              Every EYETI 75-PRO is hand-assembled, lubricated in certified cleanrooms, and acoustically tested for frequency harmony before shipment.
+            </p>
+
+            <div class="included-checklist mono">
+              <div class="check-item"><span class="chk">✓</span> EYETI 75-PRO Assembled Mechanical Keyboard</div>
+              <div class="check-item"><span class="chk">✓</span> Custom Coiled USB-C to USB-A Aviator Cable</div>
+              <div class="check-item"><span class="chk">✓</span> 2.4 GHz Low-Latency RF Wireless Dongle</div>
+              <div class="check-item"><span class="chk">✓</span> 2-in-1 CNC Aluminum Keycap &amp; Switch Puller</div>
+              <div class="check-item"><span class="chk">✓</span> 3 Extra EYETI Orange Linear Switches + Accent Caps</div>
+            </div>
+          </div>
+
+          <div class="preorder-right">
+            <div class="config-panel">
+              <div class="config-header">
+                <span class="config-edition mono">PRODUCTION BATCH // 01</span>
+                <div class="config-price">
+                  <span class="currency">$</span>
+                  <span class="amount">249</span>
+                  <span class="usd mono">USD</span>
+                </div>
+              </div>
+
+              <div class="config-options">
+                <div class="option-group">
+                  <label class="option-label mono">SWITCH SELECTION</label>
+                  <div class="option-pills">
+                    <button class="opt-pill active" data-opt="orange">Orange Linear (125Hz)</button>
+                    <button class="opt-pill" data-opt="cream">Muted Cream (210Hz)</button>
+                    <button class="opt-pill" data-opt="blue">Tactile Crisp (820Hz)</button>
+                  </div>
+                </div>
+
+                <div class="option-group">
+                  <label class="option-label mono">FINISH</label>
+                  <div class="option-pills">
+                    <button class="opt-pill active">Space Grey Anodized</button>
+                    <button class="opt-pill">Obsidian Midnight</button>
+                  </div>
+                </div>
+              </div>
+
+              <button id="btn-submit-order" class="btn-checkout">
+                <span>Secure Pre-Order</span>
+                <span class="mono arrow-mark">→</span>
+              </button>
+
+              <div class="guarantee-strip mono">
+                <span>FREE WORLDWIDE SHIPPING</span>
+                <span>•</span>
+                <span>2-YEAR WARRANTY</span>
+                <span>•</span>
+                <span>30-DAY RETURN</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- SITE FOOTER -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="brand-monogram">
+            <span class="mono-dot"></span>
+            <span class="brand-name">EYETI MECHANICAL ENGINEERING</span>
+          </div>
+          <p class="footer-tagline">
+            Acoustic engineering and tactile instrument development. Designed for engineers, programmers, and creators who demand focus.
+          </p>
+        </div>
+
+        <div class="footer-links-grid mono">
+          <div class="footer-col">
+            <span class="col-title">PRODUCT</span>
+            <a href="#hero-stage">Overview</a>
+            <a href="#sound-studio">Sound Therapy</a>
+            <a href="#architecture">Acoustic Stack</a>
+            <a href="#specs">Specifications</a>
+          </div>
+          <div class="footer-col">
+            <span class="col-title">ENGINEERING</span>
+            <a href="#">Acoustic Whitepaper</a>
+            <a href="#">Frequency Telemetry</a>
+            <a href="#">QMK / VIA Config</a>
+            <a href="#">Firmware Updates</a>
+          </div>
+          <div class="footer-col">
+            <span class="col-title">GOVERNANCE</span>
+            <a href="#">ISO 9001 Compliance</a>
+            <a href="#">Warranty &amp; Returns</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Patents &amp; IP</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom mono">
+        <div class="copy-text">© 2026 EYETI MECHANICAL ENGINEERING CORP. ALL RIGHTS RESERVED.</div>
+        <div class="built-note">INSPIRED BY MIDLIFE.ENGINEERING // SOUND THERAPY FOR A HARMONIOUS MIND</div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
