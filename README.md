@@ -2,6 +2,8 @@
 
 An interactive sound-therapy mechanical keyboard showcase featuring high-performance canvas scroll-driven animations, Lenis smooth scrolling, and responsive acoustic telemetry.
 
+![EYETI Mechanical Keyboard Preview](./screenshot.png)
+
 ## ✨ Features
 
 - **240-Frame Scroll Sequence**: Smooth frame-by-frame canvas scrubbing linked with scroll position.
